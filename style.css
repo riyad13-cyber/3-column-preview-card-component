@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font family --- 01 */
+/* font-family: "Lexend Deca", sans-serif; */
+
+/* font family --- 02 */
+/* font-family: "Lexend Deca", sans-serif; */
+
+/* body styling edited as guided */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* main card body styling start from here */
+main {
+  width: 750px;
+}
+.main__card__body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  background-color: hsl(0, 0%, 95%);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* card body styling start from here */
+
+.card__template {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 30px;
+  width: 100%;
+}
+
+.card__template:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card__template:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card__template:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card__icon,
+.card__heading {
+  margin-bottom: 30px;
+}
+.card__info {
+  margin-bottom: 60px;
+}
+
+.card__heading h2 {
+  font-family: "Big Shoulders", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+}
+
+.card__info p {
+  padding-right: 40px;
+}
+
+button {
+  padding: 15px 30px;
+  font-family: "Lexend Deca", sans-serif;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.first__btn {
+  color: hsl(31, 77%, 52%);
+}
+.first__btn:hover {
+  outline: 1px solid hsl(0, 0%, 95%);
+  background: none;
+  color: hsl(0, 0%, 95%);
+}
+
+.second__btn {
+  color: hsl(184, 100%, 22%);
+}
+.second__btn:hover {
+  outline: 1px solid hsl(0, 0%, 95%);
+  background: none;
+  color: hsl(0, 0%, 95%);
+}
+
+.third__btn {
+  color: hsl(179, 100%, 13%);
+}
+.third__btn:hover {
+  outline: 1px solid hsl(0, 0%, 95%);
+  background: none;
+  color: hsl(0, 0%, 95%);
+}

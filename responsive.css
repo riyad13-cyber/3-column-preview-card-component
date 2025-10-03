@@ -1,0 +1,36 @@
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .main__card__body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__template {
+    padding: 30px;
+  }
+
+  .card__icon,
+  .card__heading {
+    margin-bottom: 15px;
+  }
+  .card__info {
+    margin-bottom: 30px;
+  }
+
+  .card__heading h2 {
+    font-size: 26px;
+  }
+
+  .card__info p {
+    padding-right: 40px;
+  }
+
+  button {
+    padding: 10px 20px;
+  }
+}
